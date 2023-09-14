@@ -3,4 +3,26 @@ step 1. install notepad++ in windows
 step 2. add path of notepad++ in system path variable
 step 3. try to open the notepad using git command line so now we can open notepad using git cml
 
+commit 2 :-
+step 1. open git bash
+step 2. open new bash file in home directory using command like 
+	$ notepad++ .bash_profile
+step 3. Edit the above file in notepad++ , give the alias as fallows
+
+	alias npp='notepad++.exe -multiInst -nosession'
+step 4: save and exit notepad, also exit from git bash
+step 5: open the git bash again and type npp which opens up the notepad++ 
+	and that is what expected to happen. exit from both notepad and bash.
+
+
+
+step 6 : TO SET THE NOTEPAD++ DEFAULT EDITOR
+	
+	$ git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+step 7 : 
+	$ git config --global -e
+
+	this is going to set the notepad++ as default editor
+
 
