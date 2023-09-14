@@ -1,0 +1,6 @@
+commit 1 :-
+step 1. install notepad++ in windows
+step 2. add path of notepad++ in system path variable
+step 3. try to open the notepad using git command line so now we can open notepad using git cml
+
+
